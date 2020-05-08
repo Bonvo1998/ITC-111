@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <header id="mainheader">
+            Need an account?
+            <a href="register.html">Register</a>
+        </header>
+        <section>
+            <form onsubmit="alert(userName.value);return false">
+                <div id="formData">
+                    <div class="label">
+                        <label>Username</label>
+                    </div>
+                    <input type="text" name="userName">
+                    <br>
+                    <div id="label">
+                        <label>Password</label>
+                    </div>
+                    <input type="password" name="password">
+                    <br>
+                    <br>
+                    <div>
+                        <a href="#">Forgot Username or Password</a>
+                        <br>
+                        <br>
+                        <input type="submit" name="submit">
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </div>
+</body>
+</html>
