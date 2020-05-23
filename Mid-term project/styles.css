@@ -1,0 +1,21 @@
+body {
+    background-image: url(../Images/bruce\ lee.jpg);
+    background-size: auto;
+}
+.center {
+    text-align: center;
+    width: max-content;
+    margin: 0 auto
+}
+div {
+    width: 120px;
+    color: red;
+
+}
+footer {
+    text-align: center;
+    color: red;
+}
+section {
+    width: 600px;
+}
