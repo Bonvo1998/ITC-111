@@ -49,3 +49,8 @@ width: 80%;
 #divLeft_CELinks, #divLeft_ALinks{
 display: none;
 }
+footer {
+    background-color: rgb(216, 5, 5);
+    color: whitesmoke;
+    text-align: center;
+}
