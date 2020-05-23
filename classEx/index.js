@@ -8,9 +8,15 @@ function changeLinkText(lnk) {
         document.getElementById('divRight').style.display = "none";
         document.getElementById('ls_Heading').innerHTML = "Class Exercises";
         document.getElementById('rs_Heading').innerHTML = "This is where you can find my class exercises.";
-    }
+    }else if (lnk == 'a'){
+        document.getElementById('divLeftDefault').style.display = "none";
+        document.getElementById('divLeft_CELinks').style.display = "none";
+        document.getElementById('divLeft_ALinks').style.display = "block";
+        document.getElementById('divRight').style.display = "none";
+        document.getElementById('ls_Heading').innerHTML = "Assignments";
+        document.getElementById('rs_Heading').innerHTML = "This is where you can find my class assignments.";
     
-    else{
+    }else{
         document.getElementById('divLeftDefault').style.display = "block";
         document.getElementById('divLeft_CELinks').style.display = "none";
         document.getElementById('divLeft_ALinks').style.display = "none";
