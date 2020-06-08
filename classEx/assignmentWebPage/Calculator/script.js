@@ -31,7 +31,7 @@ function doMath() {
             result = parseInt(val1) / parseInt(val2);
             break;
         // case 'sqrt':
-        //    // dp square root math
+        //    // do square root math
         //    break;
         // case 'pow':
         //    // do exponent math
