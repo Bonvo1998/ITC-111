@@ -14,7 +14,6 @@ function setOperator(trg) {
     document.getElementById('display2').value = "";
 }
 function doMath() {
-    // alert('reached');
     val2 = document.getElementById('display2').value;
     var result;
     switch(val1.slice(-1)){
@@ -30,12 +29,13 @@ function doMath() {
         case '/':
             result = parseInt(val1) / parseInt(val2);
             break;
-        // case 'sqrt':
-        //    // do square root math
-        //    break;
-        // case 'pow':
-        //    // do exponent math
-        //    break;
+        case 's':
+            result = Math.sqrt(parseInt(val1));
+            break;
+        case 'p':
+            result = Math.pow(parseInt(val1), parseInt(val2));
+            break;
+    
     }
     // alert(result);
     document.getElementById('display1').innerHTML = "";
