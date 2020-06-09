@@ -1,5 +1,5 @@
 .main {
-    background-color: whitesmoke;
+    background-color: rgb(9, 60, 168);
     margin: 0 auto;
     padding: 2px 2px auto;
     width: max-content;
@@ -27,7 +27,7 @@
     height: 40px;
 }
 button {
-    background-color: white;
+    background-color: rgb(4, 71, 158);
     font-size: x-large;
     width: 70px;
     height: 70px;
